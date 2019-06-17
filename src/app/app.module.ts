@@ -41,7 +41,6 @@ import { PageNotFoundComponent } from './pages/not-found/not-found.component';
 
 // Components
 import { EmailMeComponent } from './components/email-me/email-me.component';
-import { TestingComponent } from './pages/testing/testing.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +52,6 @@ import { TestingComponent } from './pages/testing/testing.component';
     FooterComponent,
     PageNotFoundComponent,
     EmailMeComponent,
-    TestingComponent
   ],
   imports: [
     BrowserModule,
