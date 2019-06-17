@@ -1,0 +1,102 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js i
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\aptible-toolbelt\bin\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Android\Android Studio\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\curt\.windows-build-tools\python27\;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\curt\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\curt\AppData\Roaming\npm\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\aptible-toolbelt\bin\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Android\Android Studio\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Users\curt\.windows-build-tools\python27\;C:\Users\curt\AppData\Local\Temp\yarn--1551402795116-0.3436125625725468;C:\Users\curt\AppData\Local\Yarn\Data\global\node_modules\windows-build-tools\node_modules\.bin;C:\Users\curt\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\curt\AppData\Local\Yarn\Data\global\node_modules\windows-build-tools\node_modules\.bin;C:\Users\curt\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\curt\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Fil;C:\Users\curt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\curt\.dotnet\tools;C:\Users\curt\AppData\Roaming\npm
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.3.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\curt\Documents\ang-fire-starter\package.json: Unexpected token } in JSON at position 628
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "appname",
+    "version": "0.0.0",
+    "license": "MIT",
+    "angular-cli": {},
+    "scripts": {
+      "i": "yarn install --ignore-engines",
+      "ng": "ng",
+      "start": "ng serve",
+      "test": "ng test",
+      "pree2e": "webdriver-manager update --standalone false --gecko false",
+      "e2e": "ng e2e",
+      "lint": "ng lint",
+      "reset": "rm -rf ./node_modules ./package-lock.json && npm install",
+      "dist": "ng build",
+      "prod": "ng build --prod",
+      "prod:hashless": "ng build --prod --output-hashing none",
+      "prod:src": "ng build --prod --sourcemaps",
+      "tscov": "tscov -m 90",
+      "tscov:d": "tscov --details",
+    },
+    "dependencies": {
+      "@angular/animations": "^8.0.1",
+      "@angular/cdk": "^8.0.1",
+      "@angular/common": "^8.0.1",
+      "@angular/compiler": "^8.0.1",
+      "@angular/core": "^8.0.1",
+      "@angular/fire": "^5.2.1",
+      "@angular/flex-layout": "^8.0.0-beta.26",
+      "@angular/forms": "^8.0.1",
+      "@angular/material": "^8.0.1",
+      "@angular/platform-browser": "^8.0.1",
+      "@angular/platform-browser-dynamic": "^8.0.1",
+      "@angular/platform-server": "^8.0.1",
+      "@angular/router": "^8.0.1",
+      "core-js": "^3.1.4",
+      "firebase": "^6.2.0",
+      "hammerjs": "^2.0.8",
+      "ngx-auth-firebaseui": "^2.7.2",
+      "rxjs": "^6.5.2",
+      "rxjs-compat": "^6.5.2",
+      "ts-helpers": "1.1.2",
+      "typescript": "3.4.5",
+      "zone.js": "~0.9.1"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "~0.800.3",
+      "@angular/cli": "^8.0.3",
+      "@angular/compiler-cli": "^8.0.1",
+      "@angular/language-service": "^8.0.1",
+      "@liftr/tscov": "^1.4.1",
+      "@types/jasmine": "^3.3.13",
+      "@types/node": "^8.3.0",
+      "codelyzer": "^5.1.0",
+      "jasmine-core": "^3.4.0",
+      "jasmine-spec-reporter": "^4.2.1",
+      "karma": "^4.1.0",
+      "karma-chrome-launcher": "^2.2.0",
+      "karma-cli": "^2.0.0",
+      "karma-coverage-istanbul-reporter": "^2.0.5",
+      "karma-jasmine": "^2.0.1",
+      "karma-jasmine-html-reporter": "^1.4.2",
+      "protractor": "^5.4.2",
+      "rxjs-tslint": "^0.1.7",
+      "ts-node": "^8.3.0",
+      "tslint": "^5.17.0",
+      "webpack": "^4.34.0"
+    },
+    "peerDependencies": {
+      "typescript": "~3.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

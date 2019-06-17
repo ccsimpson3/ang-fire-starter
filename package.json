@@ -17,7 +17,7 @@
     "prod:hashless": "ng build --prod --output-hashing none",
     "prod:src": "ng build --prod --sourcemaps",
     "tscov": "tscov -m 90",
-    "tscov:d": "tscov --details",
+    "tscov:d": "tscov --details"
   },
   "dependencies": {
     "@angular/animations": "^8.0.1",
@@ -50,7 +50,7 @@
     "@angular/language-service": "^8.0.1",
     "@liftr/tscov": "^1.4.1",
     "@types/jasmine": "^3.3.13",
-    "@types/node": "^12.0.8",
+    "@types/node": "^8.3.0",
     "codelyzer": "^5.1.0",
     "jasmine-core": "^3.4.0",
     "jasmine-spec-reporter": "^4.2.1",
